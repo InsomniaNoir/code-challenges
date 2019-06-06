@@ -12,3 +12,9 @@ end
 # p(obj1, obj2, ...) → [obj, ...]
 # p() → nil
 # For each object, directly writes obj.inspect followed by a newline to the program’s standard output.
+
+# Simpler Solution:
+# 
+# def grow(x)
+#   x.reduce(:*)
+# end
